@@ -1,0 +1,8 @@
+---
+title: "Your Name | Quantum Information Research"
+description: "Research in quantum information and quantum error correction, with publications and lecture notes."
+page-layout: full
+title-block-banner: false
+---
+
+{{< include _home-content.html >}}

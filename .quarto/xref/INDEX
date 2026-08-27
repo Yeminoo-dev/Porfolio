@@ -1,0 +1,35 @@
+{
+  "create_website.qmd": {
+    "create_website.html": "affa0896"
+  },
+  "hello_world.qmd": {
+    "hello_world.html": "e8a066c3"
+  },
+  "notes.qmd": {
+    "notes.html": "035631ce"
+  },
+  "KL_condition.qmd": {
+    "KL_condition.html": "21fea238"
+  },
+  "about.qmd": {
+    "about.html": "3a6491dc"
+  },
+  "publications.qmd": {
+    "publications.html": "1be726a2"
+  },
+  "Knill-Laflamme condition.md": {
+    "Knill-Laflamme condition.html": "6dd51c38"
+  },
+  "home.qmd": {
+    "home.html": "bb5393a9"
+  },
+  "projects.qmd": {
+    "projects.html": "1ec136ef"
+  },
+  "index.qmd": {
+    "index.html": "1409d7e5"
+  },
+  "contact.qmd": {
+    "contact.html": "f2e83036"
+  }
+}

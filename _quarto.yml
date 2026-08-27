@@ -1,0 +1,65 @@
+project:
+  type: website
+
+website:
+  title: "Ye Min Oo"
+
+  navbar:
+    # color of navbar
+    background: "#243447"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: About Me
+      - href: projects.qmd
+        text: Research Projects
+      - href: publications.qmd
+        text: Publications
+      - href: notes.qmd
+        text: Notes # Text shown on navbar
+  sidebar:
+    - id: notes
+      title: "Lecture notes"
+      style: "docked"
+      search: true
+      background: dark
+      collapse-level: 1
+      contents:
+        - href: notes.qmd
+          text: Overview
+        - section: "Quantum error correction"
+          contents:
+            - href: KL_condition.qmd
+
+      tools:
+        - icon: arrow-left
+          href: index.qmd
+          aria-label: "Return"
+
+  search:
+    location: sidebar
+    type: textbox
+
+
+
+format:
+  html: 
+    theme: 
+      light: flatly 
+      dark: darkly
+    respect-user-color-scheme: true # add dark-light switch
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    html-math-method: 
+      method: katex
+    fontsize: 11.5pt
+    grid:
+      sidebar-width: 260px
+      body-width: 650px
+      margin-width: 250px
+      gutter-width: 1.5rem
+      
+execute:
+  freeze: auto
+  cache: true
