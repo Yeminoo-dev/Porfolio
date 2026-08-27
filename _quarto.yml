@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs # To deploy on Github-page
 
 website:
   title: "Ye Min Oo"
